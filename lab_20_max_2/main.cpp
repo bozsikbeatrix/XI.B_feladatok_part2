@@ -23,6 +23,7 @@ int main()
         input >> diakok[i].media;
         if(i==0){
             min=diakok[i].media;
+            idx= diakok[i].azonosito;
         }
         if(diakok[i].media < min){
             min= diakok[i].media;
